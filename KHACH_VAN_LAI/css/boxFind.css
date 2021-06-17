@@ -1,0 +1,89 @@
+
+/*FIND USER CSS-----------------------------------------------------*/
+
+.box-find-user{
+  float: right;
+  right: 30px;
+  margin-top: 50px;
+ margin-right: 32%;
+ background: #fff;
+ height: 50px;
+ width: 420px;
+ border-radius: 50px;
+ box-shadow: 1px 1px 2px #C70039, -1px -1px 2px #fff;
+ overflow: hidden;
+}
+
+.box-find-user i{
+  color: #C70039;
+}
+.box-find-user:hover{
+  width: 420px;
+}
+.box-find-user > .name_user_find {
+ width: 270px;
+ height: 50px;
+ color: #333;
+ transition: 1s;
+ padding-left: 20px;
+
+}
+.box-find-user> .select_type_user_find {
+ width: 80px;
+ line-height: 50px;
+ height:50px;
+ margin-right: 6px;
+ color: #333;
+ transition: 1s;
+}
+.box-find-user> .btn_find_user {
+ background: #fff;
+ color: #fff;
+
+}
+
+.btn_find_user {
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ background: #fff;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+ 
+ cursor: pointer;
+ float: right;
+}
+
+.btn_find_user > i {
+ font-size: 20px;
+}
+
+.name_user_find{
+ border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 0;
+ color: #fff;
+ font-size: 16px;
+ 
+ line-height: 20px;
+ width: 0px;
+ font-weight: bold;
+
+}
+.select_type_user_find {
+border: none;
+ background: none;
+ outline: none;
+ float: left;
+ color: #fff;
+ font-size: 13px;
+ transition: 0.4s;
+ line-height: 20px;
+ height: 20px;
+ width: 0px;
+ font-weight: bold;
+}
