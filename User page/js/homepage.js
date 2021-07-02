@@ -1,12 +1,12 @@
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyCX3q_oJgMPwQ7qJKWsTaucToeMyJLyTTg",
-    authDomain: "bvdatabase-8d2bd.firebaseapp.com",
-    databaseURL: "https://bvdatabase-8d2bd-default-rtdb.firebaseio.com",
-    projectId: "bvdatabase-8d2bd",
-    storageBucket: "bvdatabase-8d2bd.appspot.com",
-    messagingSenderId: "945711249581",
-    appId: "1:945711249581:web:d090b1bd6577ed662cee24"
+ // Your web app's Firebase configuration
+ var firebaseConfig = {
+    apiKey: "AIzaSyB_nXPpt7SqzlnNJ_289w7rHVBeVhQkoQw",
+    authDomain: "newdb-ad263.firebaseapp.com",
+    databaseURL: "https://newdb-ad263-default-rtdb.firebaseio.com",
+    projectId: "newdb-ad263",
+    storageBucket: "newdb-ad263.appspot.com",
+    messagingSenderId: "924077641130",
+    appId: "1:924077641130:web:1132a9be9c4147cf85efd3"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
@@ -14,7 +14,7 @@
 /*CONTENT 3----ListPET*/
 function homepage(){
 
-
+        alert("hello");
     show_list_pet= document.getElementById('content_3_pet');
     show_list_pet.innerHTML = "";
  
